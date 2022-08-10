@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+	<header>
+
+		<a href="./layouts.html">
+			<h2>Curso front-end - HTML</h2>
+		  </a>
+
+    </header>
+    <h1>formatação de texto</h1>
+    <h2>titulo2</h2>
+    <h3>titulo3</h3>
+    <h4>titulo4</h4>
+    <h5>titulo5</h5>
+    
+   <h1>Formatação de texto</h1> 
+   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus rerum officiis dolorem dignissimos voluptatem eius consequuntur, recusandae commodi ullam nemo in beatae animi eveniet quo, aperiam sequi eligendi, alias accusamus.lo</p>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum vel dolores id iste ad at officia ipsum saepe assumenda, ullam quis voluptas repellat quo inventore, ex, provident dignissimos quaerat quidem.</p>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus officia, architecto natus itaque possimus officiis veniam, iure quaerat excepturi vel non ad doloremque nesciunt optio. Blanditiis nostrum explicabo nam commodi.</p>
+</body>
+</html>			* {
+			  box-sizing: border-box;
+			}
+
+			body {
+			  font-family: Arial, Helvetica, sans-serif;
+			}
+
+			/* Style the header */
+			header {
+			  background-color: #666;
+			  padding: 30px;
+			  text-align: center;
+			  font-size: 35px;
+			  color: white;
+			}
+
+			/* Create two columns/boxes that floats next to each other */
+			nav {
+			  float: left;
+			  width: 30%;
+			   
+			  background: #ccc;
+			  padding: 20px;
+			}
+
+			/* Style the list inside the menu */
+			nav ul {
+			  list-style-type: none;
+			  padding: 0;
+			}
+
+			article {
+			  float: left;
+			  padding: 20px;
+			  width: 70%;
+			  background-color: #f1f1f1;
+			}
+
+			/* Clear floats after the columns */
+			section::after {
+			  background: #ccc;
+			  content: "";
+			  display: table;
+			  clear: both;
+			}
+
+			/* Style the footer */
+			footer {
+			  background-color: #777;
+			  padding: 10px;
+			  text-align: center;
+			  color: white;
+			}
+
+			/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+			@media (max-width: 600px) {
+			  nav, article {
+			    width: 100%;
+			    height: auto;
+			  }
+			}

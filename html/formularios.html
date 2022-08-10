@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="./css/estilo/style.css">
+   
+</head>
+<body>
+    <header>
+
+        <a href="./layouts.html">
+          <h1>Curso front-end - HTML</h1>
+        </a>
+
+    </header>
+
+    <section>
+
+      <nav>
+        <h3>Aulas</h3>
+           <div>
+            <div class="item"><a href="./layouts.html">Home</a></div>
+            <div class="item"><a href="./01-introducao.html">Introdução</a></div>
+
+            <div class="item"><a href="./02-listas e links.html">Listas e Links</a></div>
+
+            <div class="item"><a href="./formatacão-de-texto.html">formatação de texto</a></div>
+
+            <div class="item"><a href="./formularios.html">Formularios</a></div>
+            </div>
+       
+          <h3>Redes sociais</h3>
+           <ul>
+            <div class="item"><a href="https://www.linkedin.com/in/esdra-sousa-002281113" target="_blank">LinkedIn</a></div>
+            <div class="item"><a href="https://www.instagram.com/esdra_sousa/" target="_blank">Instagram</a></div>
+           <div class="item"><a href="https://github.com/Esdra74" target="_blank">GitHub</a></div>
+           </div>
+      </nav>
+        <article>
+            <h1>contatos</h1>
+            <p>preencha os campos abaixo</p>
+            
+            <form method="post">
+
+                <div>
+                <label for="nome">nome</label><br>
+                <input type="text" name="nome" id="nome" placeholder="nome aqui">
+                </div>
+
+                <div>
+                <label for="email">E-mail</label><br>
+                <input type="text" name="email" id="email" placeholder="email aqui">
+                </div>
+
+                <div>
+                    <label for="mensagem">mensagem</label><br>
+                    <textarea name="mensagem" id="mensagem" rows="5"></textarea>
+                </div>
+
+                <div>
+                    <p>
+                        <label> Quail linguagem você prefere?</label>
+                        <input type="radio" name="linguagens" volue="html">HTML
+                        <input type="radio" name="linguagens" value="css">CSS
+                        <input type="radio" name="linguagens" value="javascript">Javascript
+                    </p>
+                </div>
+
+                <div>
+                    <p>
+                        <label> Quais linguageis você sabe?</label>
+                        <input type="checkbox" name="linguagens" value="html">HTML
+                        <input type="checkbox" name="linguagens" value="css">CSS
+                        <input type="checkbox" name="linguagens" value="javascritp">Javascript
+                    </p>
+                </div>
+
+                <div>
+                    <label>Qual a sua cor favorita? </label>
+                    <select>
+                        <option value="azul">Azul</option>
+                        <option value="verde">Verde</option>
+                        <option value="vermelho" selected>Vermelho</option>
+                    </select>
+                </div>
+
+                <div>
+                    <input type="submit">
+                </div>
+            </form>
+            
+        </article>
+
+    </section>
+    <footer>
+        <a href="https://github.com/Esdra74" target="_blank">
+          <p>Desenvolvido por Esdra</p>
+        </a>
+    </footer>
+</body>
+</html>
